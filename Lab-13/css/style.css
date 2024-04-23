@@ -1,21 +1,38 @@
-header {
-    width: 80%;
-    height: 200px;
-    border: 1px solid red;
-}
-nav {
-    width: 80%;
-    height: 200px;
-    border: 1px solid red;
+body {
+    margin:0px;
 }
 
+
+.container {
+    width: 80%;
+    border: 1px solid red;
+    margin:0px auto;
+}
+header {
+    height: 200px;
+}
+nav {
+     height: 200px;
+}
 main {
-width: 80%;
-height: 200px;
-border: 1px solid red;
+    height: 600px;
+}
+section {
+    width: 70%;
+    height: 100%;
+    float: left;
+    border:1px solid green;
+    box-sizing: border-box;
+}
+aside   {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background: yellow;
+    border:1px solid green;
+    box-sizing: border-box;
 }
 footer {
-    width: 80%;
-    height: 200px;
-    border: 1px solid red;
+    height: 60px;
 }
+
